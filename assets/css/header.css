@@ -1,0 +1,6 @@
+.header{
+    background: url(../img/Wallpaper.header.jpg) no-repeat;
+    text-align: center;
+    padding:100px;
+    background-attachment: fixed;
+}
