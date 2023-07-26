@@ -1,6 +1,10 @@
-.header{
+.header {
     background: url(../img/Wallpaper.header.jpg) no-repeat;
+    color: #ffffff;
+    text-shadow: #000 2px 2px 0.2rem;
+    font-family: 'Space Grotesk', sans-serif;
     text-align: center;
-    padding:100px;
-    background-attachment: fixed;
+    margin: 0;
+    padding: 50px;
+    font-size:30px;
 }
