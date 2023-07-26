@@ -1,0 +1,18 @@
+body{
+background-color: #E1EDF9;
+}
+
+.form{
+    background-color: #B4CFE9;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+input, textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 3px;
+}
