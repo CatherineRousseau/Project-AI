@@ -6,6 +6,7 @@ body{
 nav{
     background: linear-gradient(#408DAE 50%,#D9D9D9);
     height: 100px;
+    margin-top: 300px;
 }
 
 ul{
