@@ -1,9 +1,17 @@
 .header {
+    background-image: url(../img/Wallpaper.header.jpg);
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.title{
     color: #ffffff;
     text-shadow: #000 2px 2px 0.2rem;
     font-family: 'Space Grotesk', sans-serif;
     text-align: center;
-    margin: 0;
-    font-size:30px;
+    margin: 110px;
+    margin-left: 180px;
+    font-size: 30px;
 }
-
