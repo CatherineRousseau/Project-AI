@@ -13,7 +13,6 @@ ul{
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
 }
 
 ul li a{
@@ -30,4 +29,5 @@ ul li a{
     border-color: #66A9C6;
     font-size: medium;
     font-family: 'Space Grotesk', sans-serif;
+    margin-left: 30px;
 }
