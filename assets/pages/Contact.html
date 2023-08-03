@@ -13,40 +13,51 @@
         </div>
         <div class="navbar">
             <ul>
-                <li><a href="./assets/pages/Accueil.html"><button class="nav_button">Accueil</button></a></li>
-                <li><a href="./assets/pages/dangers.html"><button class="nav_button">Les dangers de l'IA</button></a></li>
-                <li><a href="./assets/pages/futur.html"><button class="nav_button">Le futur de l'IA</button></a></li>
-                <li><a href="./assets/pages/pop.html"><button class="nav_button">L'IA sur la Pop Culture</button></a></li>
-                <li><a href="./assets/pages/fonctions.html"><button class="nav_button">Les fonctions de l'IA</button></a></li>
+                <li><a href="/index.html"><button class="nav_button">Accueil</button></a></li>
+                <li><a href="./dangers.html"><button class="nav_button">Les dangers de l'IA</button></a></li>
+                <li><a href="./futur.html"><button class="nav_button">Le futur de l'IA</button></a></li>
+                <li><a href="./pop.html"><button class="nav_button">L'IA sur la Pop Culture</button></a></li>
+                <li><a href="./fonctions.html"><button class="nav_button">Les fonctions de l'IA</button></a></li>
             </ul>
         </div>
     </nav>
-<div class="contact">
-<h1>Vous souhaitez nous demander des informations, nous faire part de vos remarques ?</h1>
-<h1>Contactez nous</h1>
-</div>
+
+    <div class="contact">
+        <p>
+            <h1>Vous souhaitez nous demander des informations, nous faire part de vos remarques ?</h1>
+            <br>
+            <h1>Contactez nous</h1>
+        </p>
+    </div>
     <form class="form">
-        <label for="">Votre nom :</label>
-        <input type="text" placeholder="VINCENT">
+        <p>
+            <label for="lastName">Votre nom:</label>
+            <input type="text" placeholder="VINCENT" id="lastName" required>
+        </p>
+        <p>
+            <label for="firstName">Votre prénom:</label>
+            <input type="text" placeholder="Lucie" id="firstName" required>
+        </p>
+        <p>
+            <label for="mail">Votre email:</label>
+            <input type="email" placeholder="exemple.email@email.com" id="mail" required>
+        </p>
+        <p>
+            <label for="subject">Objet:</label>
+            <select name="subject" id="subject">
+                <option value="infos">Demande d'informations</option>
+                <option value="remarques">Remarques</option>
+                <option value="other">Autres</option>
+            </select>
+        </p>
+        <p>
+            <label for="message">Votre Message:</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Ecrivez votre message ici" required></textarea>
+        </p>
+       <input type="submit" value="Envoyer">    
 
-        <label for="">Votre prénom :</label>
-        <input type="text" placeholder="Lucie">
-
-        <label for="">Votre email :</label>
-        <input type="text" placeholder="exemple.email@email.com">
-
-        <label for="objet">Objet:</label>
-        <select name="" id="">
-            <option value="info">Demande d'informations</option>
-            <option value="remarques">Remarques</option>
-        </select>
-
-        <label for="">Message</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
-
-       <input type="submit" value="envoyer">     
     </form>
-
+    
 
     <footer class="footer">
         <div class="footer_content">
