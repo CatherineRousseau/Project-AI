@@ -19,5 +19,24 @@ input, textarea {
 
 input[type=submit]:hover {
     background-color: #66A9C6;
-  }
+}
 
+input[type=submit]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #408DAE;
+    width: 250px;
+}
+
+
+.contact{
+    text-align: center;
+}
+
+.form{
+    display: block;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
