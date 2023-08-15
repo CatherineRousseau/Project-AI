@@ -1,5 +1,9 @@
 @import url(index.css);
 
+body{
+    background-color: #E1EDF9;
+}
+
 .paragraphe1{
     height: 200px;
     width: 800px;
