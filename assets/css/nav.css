@@ -4,5 +4,31 @@ body{
 }
 
 nav{
-    background-color: #66A9C6;
+    background: linear-gradient(#408DAE 50%,#D9D9D9);
+    height: 100px;
+    margin-top: 300px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+}
+
+.nav_button{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-color: #66A9C6;
+    font-size: medium;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 30px;
 }
