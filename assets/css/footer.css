@@ -1,28 +1,27 @@
 footer{
-   background: linear-gradient(#D9D9D9,#408DAE 50%);
-   height: 100px;
-   width: 100%;
-   position: fixed;
-   bottom: 0;
-}
-
- ul{
-    list-style-type: none;
+    background: linear-gradient(#e1edf9,#2067a5 80%);
+    height: 100px;
+    width: 100%;
+    bottom: 0;
  }
-
- .footer_button{
-   border-radius: 20px;
-   width: 200px;
-   height: 40px;
-   background-color: #D9D9D9;
-   border-color: #66A9C6;
-   font-size: medium;
-   font-family: 'Space Grotesk', sans-serif;
-   margin-left: 300px;
-}
-
-.social_media{
-   position: absolute;
-   right: 0;
-   margin: 30px;
-}
+ 
+  ul{
+     list-style-type: none;
+  }
+ 
+  .footer_button{
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: #D9D9D9;
+    border-color: #2067a5;
+    font-size: medium;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-left: 300px;
+ }
+ 
+ .social_media{
+    position: absolute;
+    right: 0;
+    margin: 30px;
+ }
