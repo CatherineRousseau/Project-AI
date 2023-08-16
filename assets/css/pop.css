@@ -2,6 +2,7 @@
 
 body{
     background-color: #E1EDF9;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .ParagrapheP1{
@@ -33,4 +34,8 @@ body{
     height: 500px;
     width: 400px;
     margin-top: -60px;
+}
+
+#Pop{
+    background-color: #61bce3;
 }

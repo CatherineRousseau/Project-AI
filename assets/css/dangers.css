@@ -2,6 +2,7 @@
 
 body{
     background-color: #E1EDF9;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 .paragraphe1{
@@ -45,4 +46,8 @@ body{
     height: 300px;
     width: 500px;
     margin-top: 50px;
+}
+
+#Dangers{
+    background-color: #61bce3;
 }
