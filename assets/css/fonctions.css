@@ -1,6 +1,8 @@
 @import url(./index.css);
 
 body{
+    margin: auto;
+    padding: auto;
     background-color: #E1EDF9;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -9,10 +11,26 @@ h1{
     font-weight: bold;
 }
 
-.textDefinitions{
-    text-align: left;
+#containerDefinitions{
+    display: flex;
 }
 
-.imageDefinitions{
-    width: 300px;
+.textDefinitions{
+    /* float: left; */
+}
+
+#imageDefinitions{
+    width: 500px;
+    border-radius: 10%;
+    float: right;
+}
+
+#imageUsages{
+    width: 500px;
+    border-radius: 10%; 
+}
+
+#containerUsages{
+    display: flex;
+    align-items: center; 
 }
