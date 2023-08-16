@@ -5,7 +5,7 @@
     margin: calc(var(--s) + var(--g));
     position: absolute 50% 50%;
 }
-  
+
 .gallery > img {
     grid-area: 1/7;
     width: var(--s);
@@ -44,4 +44,6 @@
     background:#e1edf9 ;
 }
 
-
+#Accueil{
+    background-color: #61bce3;
+}
