@@ -21,13 +21,13 @@ h1{
 
 #imageDefinitions{
     width: 500px;
-    border-radius: 10%;
+    border-radius: 20px;
     float: right;
 }
 
 #imageUsages{
     width: 500px;
-    border-radius: 10%; 
+    border-radius: 20px; 
 }
 
 #containerUsages{
