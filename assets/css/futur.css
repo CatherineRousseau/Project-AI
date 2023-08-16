@@ -1,0 +1,69 @@
+.mid{
+    height: 400px;
+    background:#e1edf9 ;
+    padding: 50px 0 50px 0;
+    
+   
+}
+
+#img1 {
+    height: 400px;
+    clip-path: polygon(41% 0, 100% 0, 0 100%, 0 37%);
+    position: absolute;
+    left: 0;
+    top: 60%;
+}
+
+#img2 {
+    height: 400px;
+    clip-path: polygon(100% 60%, 100% 0, 0 100%, 64% 100%);
+    position: absolute;
+    right: 0;
+    top: 60%;
+}
+
+.p {
+    width: 600px;
+    font-size: 1.00rem;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+
+#p1 {
+    margin-left: 690px;
+}
+
+#p2 {
+    margin-left: 520px;
+}
+
+#p3 {
+    margin-left: 350px;
+}
+
+#p4 {
+    margin-left: 210px;
+}
+
+.sep {
+    height: 1px;
+    background-color: black;
+    width: 630px;
+}
+
+#sep1 {
+    margin-left: 560px;
+}
+
+#sep2 {
+    margin-left: 430px;
+}
+
+#sep3 {
+    margin-left: 270px;
+}
+
+
+
+
