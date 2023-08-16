@@ -4,25 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/fonctions.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">   
 </head>
 <body>
-    <nav class="navbar">
-        <div class="navbar_left">
-            <span>Project AI</span>
+
+    <div class="header">
+        <div class="banner">
+            <div class="title"><h1>Projekt-AI</h1></div>
         </div>
+   </div>
+
+    <nav class="navbar">
         <div class="navbar">
             <ul>
-                <li><a href="./assets/pages/Accueil.html"><button class="nav_button">Accueil</button></a></li>
-                <li><a href="./assets/pages/dangers.html"><button class="nav_button">Les dangers de l'IA</button></a></li>
-                <li><a href="./assets/pages/futur.html"><button class="nav_button">Le futur de l'IA</button></a></li>
-                <li><a href="./assets/pages/pop.html"><button class="nav_button">L'IA sur la Pop Culture</button></a></li>
-                <li><a href="./assets/pages/fonctions.html"><button class="nav_button">Les fonctions de l'IA</button></a></li>
+                <li><a href="./Accueil.html"><button class="nav_button">Accueil</button></a></li>
+                <li><a href="./dangers.html"><button class="nav_button">Les dangers de l'IA</button></a></li>
+                <li><a href="./futur.html"><button class="nav_button">Le futur de l'IA</button></a></li>
+                <li><a href="./pop.html"><button class="nav_button">L'IA sur la Pop Culture</button></a></li>
+                <li><a href="./fonctions.html"><button class="nav_button">Les fonctions de l'IA</button></a></li>
             </ul>
         </div>
     </nav>
 
     <div id="definitions">
-        <div class="text_definitions">
+        <div class="textDefinitions">
             <h1>Qu'est-ce que l'Intelligence Artificielle ?</h1>
             <p> Il ne faut pas confondre les IA dites "fortes", qui sont des formes théoriques d'IA, et qui font partie du domaine de la science-fiction actuellement, et les IA dites "faibles / modérées" qui sont les systèmes opérationnels que nous connaissons actuellement.
                 IA fortes : dotées d'une forme de conscience d'elles-mêmes et d'une intelligence égale aux humains qui leur permaittraient de résoudre des problèmes. 
@@ -33,10 +42,12 @@
                 L'apprentissage automatique n'est pas réellement une acquisition de connaissances, mais la capacité à créer des liens et à classifier les informations contenues dans les bases de données.
             </p>
         </div>
-        <img src="../img/image_definition_ia1.jpg" alt="cerveau">
+        <div class="imageDefinitions">
+            <img src="../img/image_definition_ia1.jpg" alt="cerveau">
+        </div>
     </div>
     <div id="usages">
-        <div class="text_usages">
+        <div class="textUsages">
             <h1>Les usages et fonctions de l’Intelligence Artificielle</h1>
             <p> Les domaines d'application de l'intelligence artificielle sont nombreux.
             L'intelligence artificielle est largement utilisée pour fournir des recommandations personnalisées aux internautes, sur la base, par exemple, de leurs recherches et achats antérieurs ou d'autres comportements en ligne. L'IA est extrêmement importante dans le commerce : optimisation des produits, planification des stocks, logistique, etc.
@@ -47,18 +58,22 @@
             Certaines applications d'IA peuvent détecter les fausses nouvelles et la désinformation en analysant les informations des médias sociaux, en recherchant les mots sensationnels ou alarmants et en identifiant les sources en ligne qui font autorité.
             </p>
         </div>
-        <img src="../img/image_definition_ia2.jpg" alt="cerveau">
+        <div class="imageUsages">
+            <img src="../img/image_definition_ia2.jpg" alt="cerveau">
+        </div>
     </div>
 
     <footer class="footer">
         <div class="footer_content">
-            <li><a href="./assets/pages/Contact.html"></a><button class="footer_button">Contact</button></li>
-            <li><a href="./assets/pages/About.html"></a><button class="footer_button">A Propos</button></li>
-        </div>
-        <div class="reseaux">
-            <img src="./assets/img/Instagram_icon.png" width="25px" alt="insta"></div>
-            <img src="./assets/img/LinkedIn_logo_initials.png" width="25px" alt="Linkedin"></div>
-            <img src="./assets/img/Twitter-logo.png" width="25px" alt="Twitter"></div>
-    </footer> 
+            <ul>
+                <li><a href="./Contact.html"><button class="footer_button">Contact</button></a></li>
+                    <li><a href="./About.html"><button class="footer_button">A Propos</button></a></li>
+                <div class="social_media">
+                    <img src="../img/Instagram_icon.png" width="35px" alt="insta">
+                    <img src="../img/LinkedIn_logo_initials.png" width="35px" alt="Linkedin">
+                    <img src="../img/Twitter-logo.png" width="38px" alt="Twitter">
+            </ul>
+        </div> 
+    </footer>
 </body>
 </html>
