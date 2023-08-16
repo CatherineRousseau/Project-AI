@@ -13,7 +13,7 @@ body{
 }
 
 #PopCulture_1{
-    border-radius: 10%;
+    border-radius: 20px;
     position: absolute;
     left: 150px;
     height: 500px;
@@ -27,7 +27,7 @@ body{
 }
 
 #PopCulture_2{
-    border-radius: 10%;
+    border-radius: 20px;
     position: absolute;
     right: 150px;
     height: 500px;
