@@ -2,7 +2,8 @@ footer{
     background: linear-gradient(#e1edf9,#2067a5 80%);
     height: 100px;
     width: 100%;
-    bottom: 0;
+    position: absolute;
+    bottom: auto;
  }
  
   ul{
