@@ -1,8 +1,6 @@
 @import url(./index.css);
 
 body{
-    margin: auto;
-    padding: auto;
     background-color: #E1EDF9;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -11,32 +9,46 @@ h1{
     font-weight: bold;
 }
 
-#containerDefinitions{
-    display: flex;
-}
 
 .textDefinitions{
-    /* float: left; */
+    float: left;
+    text-align: justify;
+    width: 900px;
+    height: 440px;
+    padding-left: 50px;
+    margin-top: 30px;
+    font-size: 100%;
+    text-justify: inter-word; 
 }
 
 #imageDefinitions{
-    width: 500px;
-    border-radius: 20px;
     float: right;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin-right: 70px;
+    margin-top: 100px;
+}
+
+.textUsages{
+    width: 900px;
+    float: right;
+    text-align: justify;
+    margin-right: 50px;
+    height: auto;
+    font-size: 100%;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    text-justify: inter-word;
 }
 
 #imageUsages{
-    width: 500px;
-    border-radius: 20px; 
-}
-
-#containerUsages{
-    display: flex;
-    align-items: center; 
-}
-
-.imageDefinitions{
-    width: 300px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 70px;
+    margin-bottom: 90px;
+    margin-top: 80px;
 }
 
 #Fonctions{
