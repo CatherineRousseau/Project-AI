@@ -1,8 +1,6 @@
 @import url(./index.css);
 
 body{
-    margin: auto;
-    padding: auto;
     background-color: #E1EDF9;
     font-family: 'Space Grotesk', sans-serif;
 }
@@ -11,32 +9,38 @@ h1{
     font-weight: bold;
 }
 
-#containerDefinitions{
-    display: flex;
-}
 
 .textDefinitions{
-    /* float: left; */
+    float: left;
+    text-align: left;
+    width: 800px;
+    /* border: 2px solid red; */
+    padding-left: 15px;
 }
 
 #imageDefinitions{
-    width: 500px;
-    border-radius: 20px;
     float: right;
+    width: 400px;
+    height: 322px;
+    border-radius: 20px;
+    /* border: 2px solid red; */
+    padding-right: 15px;
+}
+
+.textUsages{
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding-right: 15px;
+    /* border: 2px solid red; */
 }
 
 #imageUsages{
-    width: 500px;
-    border-radius: 20px; 
-}
-
-#containerUsages{
-    display: flex;
-    align-items: center; 
-}
-
-.imageDefinitions{
-    width: 300px;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    padding-left: 15px;
+    /* border: 2px solid red; */
 }
 
 #Fonctions{
