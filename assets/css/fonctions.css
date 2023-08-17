@@ -12,14 +12,13 @@ h1{
 
 .textDefinitions{
     float: left;
-    text-align: left;
+    text-align: justify;
     width: 900px;
-    height: 480px;
-    padding-left: 40px;
-    margin-top: 25px;
+    height: 440px;
+    padding-left: 50px;
+    margin-top: 30px;
     font-size: 100%;
-    /* border: 2px solid red; */
-    
+    text-justify: inter-word; 
 }
 
 #imageDefinitions{
@@ -27,29 +26,29 @@ h1{
     width: 400px;
     height: 300px;
     border-radius: 20px;
-    margin-right: 50px;
-    margin-top: 40px;
-    /* border: 2px solid red; */
+    margin-right: 70px;
+    margin-top: 100px;
 }
 
 .textUsages{
     width: 900px;
     float: right;
-    text-align: right;
-    padding-right: 40px;
+    text-align: justify;
+    margin-right: 50px;
     height: auto;
     font-size: 100%;
     margin-bottom: 40px;
-    /* border: 2px solid red; */
+    margin-top: 5px;
+    text-justify: inter-word;
 }
 
 #imageUsages{
     width: 400px;
     height: 300px;
     border-radius: 20px;
-    margin-left: 50px;
+    margin-left: 70px;
     margin-bottom: 90px;
-    /* border: 2px solid red; */
+    margin-top: 80px;
 }
 
 #Fonctions{
