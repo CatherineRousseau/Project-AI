@@ -1,13 +1,13 @@
 body{
     background-color: #E1EDF9;
     font-family: 'Space Grotesk', sans-serif;
-  }
-  
-  #Accueil{
-    background-color: #61bce3;
-  }
-  
-  .card{
+}
+
+#Accueil{
+    background: linear-gradient(#61bce3 20%,#e1edf9);
+}
+
+.card{
     margin: 0 auto;
     padding: 20px;
     max-width: 300px;

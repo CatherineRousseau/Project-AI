@@ -5,7 +5,7 @@ body{
 
 nav{
     background: linear-gradient(#2067a5 20%,#e1edf9);
-    height: 100px;
+    height: 80px;
     margin-top: 300px;
     justify-content: center;
     display: flex;
@@ -22,6 +22,7 @@ ul li a{
     text-decoration: none;
     display: block;
     padding: 30px;
+    color: black;
 }
 
 /* .nav_button{
