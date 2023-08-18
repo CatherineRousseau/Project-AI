@@ -7,7 +7,9 @@ nav{
     background: linear-gradient(#2067a5 20%,#e1edf9);
     height: 100px;
     margin-top: 300px;
-    }
+    justify-content: center;
+    display: flex;
+}
 
 ul{
     margin: 0;
@@ -22,7 +24,7 @@ ul li a{
     padding: 30px;
 }
 
-.nav_button{
+/* .nav_button{
     border-radius: 20px;
     width: 200px;
     height: 40px;
@@ -31,4 +33,4 @@ ul li a{
     font-size: medium;
     font-family: 'Space Grotesk', sans-serif;
     margin-left: 30px;
-}
+} */

@@ -16,6 +16,53 @@ body{
     border-style: solid;
     margin-left: 100px;
     margin-right: 10px;
+}
+
+
+button{
+    position: relative;
+    margin-left: 110px;
+    border-radius: 10px
+}
+
+#button1{
+    top: 70px;
+}
+#button2{
+    top: 5px;
+}
+#button3{
+    top: 46px;
+}
+#button4{
+    top: 6px;
+}
+#button5{
+    top: 108px;
+}
+#button6{
+    top: 46px;
+}
+
+ul#global1{
+    list-style: none;
+    margin-top: 60px;
+}
+
+ul#global2{
+    list-style: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+img{
+    border-radius: 15px;
+}
+
+#title{
+    text-align: center;
+}
+
   }
   
   .button{
@@ -45,3 +92,4 @@ body{
   
   
   
+
