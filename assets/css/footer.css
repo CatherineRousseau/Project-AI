@@ -9,8 +9,14 @@ footer{
     font-family: 'Space Grotesk', sans-serif;
  }
  
-  ul li{
+  footer ul li a{
      list-style-type: none;
+     text-decoration: none;
+     display: block;
+     padding: 30px;
+     color: black;
+     margin-right: 170px;
+     margin-left: 170px;
   }
  
  /* .footer_button{
@@ -26,6 +32,6 @@ footer{
  
  .social_media{
     position: absolute;
-    right: 0;
-    margin: 30px;
+    right: 10px;
+    margin: 20px;
  }
