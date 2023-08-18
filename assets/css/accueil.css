@@ -1,15 +1,13 @@
-@import url(index.css);
-
 body{
     background-color: #E1EDF9;
     font-family: 'Space Grotesk', sans-serif;
-}
-
-#Accueil{
+  }
+  
+  #Accueil{
     background-color: #61bce3;
-}
-
-.card{
+  }
+  
+  .card{
     margin: 0 auto;
     padding: 20px;
     max-width: 300px;
@@ -64,3 +62,34 @@ img{
 #title{
     text-align: center;
 }
+
+  }
+  
+  .button{
+    margin-left: 110px;
+    border-radius: 10px;
+  }
+  
+  ul#global1{
+    list-style: none;
+    margin-top: 60px;
+  }
+  
+  ul#global2{
+    list-style: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+  
+  img{
+    border-radius: 15px;
+  }
+  
+  #title{
+    text-align: center;
+  }
+  
+  
+  
+  
+
