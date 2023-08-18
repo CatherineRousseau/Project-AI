@@ -21,8 +21,14 @@ body{
 
 button{
     position: relative;
-    margin-left: 110px;
-    border-radius: 10px
+    margin-left: 115px;
+    border-radius: 10px;
+    border: none;
+    background-color: #B4CFE9;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 #button1{
@@ -62,32 +68,4 @@ img{
 #title{
     text-align: center;
 }
-  
-  .button{
-    margin-left: 110px;
-    border-radius: 10px;
-  }
-  
-  ul#global1{
-    list-style: none;
-    margin-top: 60px;
-  }
-  
-  ul#global2{
-    list-style: none;
-    margin-top: 60px;
-    margin-bottom: 60px;
-  }
-  
-  img{
-    border-radius: 15px;
-  }
-  
-  #title{
-    text-align: center;
-  }
-  
-  
-  
-  
 
