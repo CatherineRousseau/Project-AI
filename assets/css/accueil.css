@@ -20,9 +20,30 @@ body{
     margin-right: 10px;
 }
 
-.button{
+
+button{
+    position: relative;
     margin-left: 110px;
-    border-radius: 10px;
+    border-radius: 10px
+}
+
+#button1{
+    top: 82px;
+}
+#button2{
+    top: 5px;
+}
+#button3{
+    top: 17px;
+}
+#button4{
+    top: 6px;
+}
+#button5{
+    top: 102px;
+}
+#button6{
+    top: 10px;
 }
 
 ul#global1{

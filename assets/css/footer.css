@@ -4,6 +4,8 @@ footer{
     width: 100%;
     position: absolute;
     bottom: auto;
+    justify-content: center;
+    display: flex;
  }
  
   ul{
