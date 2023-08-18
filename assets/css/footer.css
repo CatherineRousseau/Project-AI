@@ -1,18 +1,19 @@
 footer{
     background: linear-gradient(#e1edf9,#2067a5 80%);
-    height: 100px;
+    height: 80px;
     width: 100%;
     position: absolute;
     bottom: auto;
     justify-content: center;
     display: flex;
+    font-family: 'Space Grotesk', sans-serif;
  }
  
-  ul{
+  ul li{
      list-style-type: none;
   }
  
-  .footer_button{
+ /* .footer_button{
     border-radius: 20px;
     width: 200px;
     height: 40px;
@@ -21,7 +22,7 @@ footer{
     font-size: medium;
     font-family: 'Space Grotesk', sans-serif;
     margin-left: 300px;
- }
+ }*/
  
  .social_media{
     position: absolute;

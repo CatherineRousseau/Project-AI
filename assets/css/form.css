@@ -62,8 +62,9 @@ input[type=submit]{
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 
 #Contact{
-    background-color: #61bce3;
+    background: linear-gradient(#e1edf9 20%,#61bce3);
 }
