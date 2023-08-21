@@ -18,6 +18,9 @@ body{
     margin-right: 10px;
 }
 
+.card:hover {
+    background-color: #A8C0D7
+} 
 
 button{
     position: relative;
