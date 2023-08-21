@@ -19,7 +19,8 @@ body{
 }
 
 .card:hover {
-    background-color: #A8C0D7
+    background-color: #A8C0D7;
+    box-shadow: 10px 5px 5px grey;
 } 
 
 button{
