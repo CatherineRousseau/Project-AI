@@ -21,6 +21,7 @@ body{
 .card:hover {
     background-color: #A8C0D7;
     box-shadow: 10px 5px 5px grey;
+    transform: scale(120%);
 } 
 
 button{
